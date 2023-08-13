@@ -1,0 +1,18 @@
+.single-color{
+    width: 216px;
+    height: 160px;
+    
+    .item{
+        padding: 10px 20px;
+        height: 89%;
+
+        p{
+            font-size: 20px;
+            
+        }
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

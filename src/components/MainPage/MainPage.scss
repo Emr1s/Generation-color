@@ -1,0 +1,44 @@
+.main-page{
+    display: flex;
+    flex-direction: column;
+
+    .header{
+        display: flex;
+        background-color: #f5f5f5;
+        padding: 50px;
+        gap: 30px;
+        align-items: center;
+    
+        .form{
+
+            .input{
+                font-size: 16px;
+            }
+            button{
+                border-radius: 5px;
+                padding: 10px;
+                background-color: #45A1E4;
+                border: none;
+                color: #fff;
+                font-size: 16px;
+                &:hover{
+                    cursor: pointer;
+                }
+
+            }
+        }
+    }
+
+    .colors{
+        display: flex;
+        flex-wrap: wrap;
+
+        h4{
+            width: 150px;
+        }
+    }
+
+    .form{
+        display: flex;
+    }
+}
